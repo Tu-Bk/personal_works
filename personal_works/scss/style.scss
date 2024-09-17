@@ -105,27 +105,35 @@ menu {
     #search_block_box {
         width: 50%;
         margin-top: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
 
         #box_seach {
             // border: 2px solid #444;
             display: flex;
             align-items: center;
+            justify-content: flex-start;
 
-            p {
+
+            >p {
                 color: #4F2D0D;
                 font-size: 32px;
                 font-family: "Noto Sans HK";
                 font-weight: 500;
                 display: flex;
+                margin-right: 2%;
+                width: 20%;
 
             }
 
             #Text_display_box {
-                width: 80%;
+                // width: 100%;
+                width: 850px;
                 border: 2px solid #444;
                 border-radius: 10px;
-                margin-left: 3%;
-                // padding: 3% 0;
+                // margin-left: 1%;
+                padding: 3% 0;
                 height: 50px;
                 display: flex;
                 align-items: center;
@@ -183,11 +191,14 @@ menu {
         }
 
         #filter_blocks {
-            margin-left: 20%;
+            // margin-left: 20%;
             margin-top: 2%;
             // height: 30%;
+            width: 80%;
             border: 2px solid #444;
             border-radius: 10px;
+
+
 
 
             #area_box {
