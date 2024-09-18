@@ -106,6 +106,11 @@ menu ul li a {
   display: flex;
   width: 25%;
 }
+@media (max-width: 1200px) {
+  #search_block #search_block_box #box_seach #box_seach_p {
+    font-size: 24px;
+  }
+}
 #search_block #search_block_box #box_seach #Text_display_box {
   width: 100%;
   border: 2px solid #444;
@@ -184,6 +189,11 @@ menu ul li a {
   font-family: "Noto Sans HK";
   font-weight: 900;
 }
+@media (max-width: 1025px) {
+  #search_block #search_block_box #filter_blocks #area_box {
+    margin-left: 2%;
+  }
+}
 #search_block #search_block_box #filter_blocks #area_seach {
   width: 100%;
   display: flex;
@@ -202,6 +212,11 @@ menu ul li a {
   color: #8E6137;
   font-weight: 900;
   font-family: "Noto Sans HK";
+}
+@media (max-width: 1025px) {
+  #search_block #search_block_box #filter_blocks #area_seach .Regional_distribution {
+    margin-right: 5px;
+  }
 }
 #search_block #search_block_box #filter_blocks #characteristic_box {
   display: flex;
@@ -243,6 +258,11 @@ menu ul li a {
   font-weight: 900;
   padding: 1px 6px;
 }
+@media (max-width: 1025px) {
+  #search_block #search_block_box #filter_blocks #characteristic_box {
+    margin-left: 2%;
+  }
+}
 #search_block #search_block_box #filter_blocks #Baking_method_box {
   display: flex;
   margin-top: 2%;
@@ -266,6 +286,11 @@ menu ul li a {
   font-family: "Noto Sans HK";
   font-weight: 900;
 }
+@media (max-width: 1025px) {
+  #search_block #search_block_box #filter_blocks #Baking_method_box #Baking_method {
+    width: 30%;
+  }
+}
 #search_block #search_block_box #filter_blocks #Baking_method_box #Treatment_method {
   display: flex;
   margin-left: 5%;
@@ -283,6 +308,11 @@ menu ul li a {
   font-family: "Noto Sans HK";
   font-weight: 900;
   padding: 1px 6px;
+}
+@media (max-width: 1025px) {
+  #search_block #search_block_box #filter_blocks #Baking_method_box {
+    margin-left: 2%;
+  }
 }
 #search_block #Text_carousel_area {
   margin-top: 5%;
@@ -327,6 +357,25 @@ menu ul li a {
   }
   100% {
     top: 0vh;
+  }
+}
+@media (max-width: 1681px) {
+  #search_block .mouse_icon_img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    animation: mouse_icon 3s 1.5s ease-in-out both infinite;
+  }
+  @keyframes mouse_icon {
+    0% {
+      top: 0vh;
+    }
+    50% {
+      top: 8vh;
+    }
+    100% {
+      top: 0vh;
+    }
   }
 }
 
@@ -1209,6 +1258,11 @@ footer #footer_box #footer_box_text ul li a {
   font-weight: 800;
   font-family: "Noto Sans HK";
 }
+@media (max-width: 1025px) {
+  .Recommendation_box .coffee_display2 .coffee_left .specialty #specialty_p {
+    width: 17%;
+  }
+}
 .Recommendation_box .coffee_display2 .coffee_left .specialty .specialty_tips {
   display: flex;
   margin-left: 5%;
@@ -1391,4 +1445,10 @@ footer #footer_box #footer_box_text ul li a {
   font-weight: 600;
   font-family: "Noto Sans HK";
   margin: 5% 0;
+}
+@media (max-width: 1200px) {
+  .Recommendation_box .frame_block .frame_block_box .frame_block_box_div5 > div .middle_p {
+    text-align: center;
+    margin: 0 5%;
+  }
 }/*# sourceMappingURL=style.css.map */

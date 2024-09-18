@@ -27,11 +27,18 @@ let block_text1_p = [
 for (let i = 0; i < block_text.length; i++) {
     block_text[i].addEventListener('click', () => {
 
-        if (block_text1_p[i].style.marginBottom != '20%') {
-            block_text1_p[i].style.marginBottom = '20%';
+        // if (block_text1_p[i].style.marginBottom != '20%') {
+        //     block_text1_p[i].style.marginBottom = '20%';
+        //     block_text1_p[i].style.overflow = 'visible';
+        // }else{
+        //     block_text1_p[i].style.marginBottom = '0%';
+        //     block_text1_p[i].style.overflow = 'hidden';
+        // }
+        if (block_text1_p[i].style.height !== 'auto') {
+            block_text1_p[i].style.height = 'auto';
             block_text1_p[i].style.overflow = 'visible';
         }else{
-            block_text1_p[i].style.marginBottom = '0%';
+            block_text1_p[i].style.height = '';
             block_text1_p[i].style.overflow = 'hidden';
         }
     });

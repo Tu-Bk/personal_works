@@ -117,6 +117,7 @@ menu {
             width: 100%;
 
 
+
             >p {
                 color: #4F2D0D;
                 font-size: 32px;
@@ -126,6 +127,13 @@ menu {
                 // margin-right: 4%;
                 width: 25%;
 
+
+            }
+
+            @media(max-width:1200px) {
+                #box_seach_p {
+                    font-size: 24px;
+                }
             }
 
             #Text_display_box {
@@ -154,7 +162,10 @@ menu {
                         font-weight: 900;
                         font-family: "Noto Sans HK";
                     }
+
                 }
+
+
 
                 .oily {
                     border: 2px solid #444;
@@ -230,6 +241,12 @@ menu {
                 }
             }
 
+            @media(max-width:1025px) {
+                #area_box {
+                    margin-left: 2%;
+                }
+            }
+
             #area_seach {
                 width: 100%;
                 display: flex;
@@ -249,6 +266,18 @@ menu {
                         font-weight: 900;
                         font-family: "Noto Sans HK";
                     }
+                }
+
+                @media(max-width:1025px) {
+                    .Regional_distribution {
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            @media(max-width:1025px) {
+                #area_seach {
+                    // margin-left: 2%;
                 }
             }
 
@@ -301,6 +330,12 @@ menu {
                 }
             }
 
+            @media(max-width:1025px) {
+                #characteristic_box {
+                    margin-left: 2%;
+                }
+            }
+
             #Baking_method_box {
                 display: flex;
                 margin-top: 2%;
@@ -330,6 +365,12 @@ menu {
 
                 }
 
+                @media(max-width:1025px) {
+                    #Baking_method {
+                        width: 30%;
+                    }
+                }
+
                 #Treatment_method {
                     display: flex;
                     margin-left: 5%;
@@ -353,6 +394,11 @@ menu {
                 }
             }
 
+            @media(max-width:1025px) {
+                #Baking_method_box {
+                    margin-left: 2%;
+                }
+            }
         }
 
     }
@@ -412,6 +458,29 @@ menu {
 
         100% {
             top: 0vh;
+        }
+    }
+
+    @media(max-width:1681px) {
+        .mouse_icon_img {
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            animation: mouse_icon 3s 1.5s ease-in-out both infinite;
+        }
+
+        @keyframes mouse_icon {
+            0% {
+                top: 0vh;
+            }
+
+            50% {
+                top: 8vh;
+            }
+
+            100% {
+                top: 0vh;
+            }
         }
     }
 }
@@ -993,7 +1062,7 @@ footer {
                 flex-wrap: wrap;
                 display: none;
 
-    
+
 
                 >p {
                     margin: 3% 0;
@@ -1535,6 +1604,11 @@ footer {
                     font-weight: 800;
                     font-family: "Noto Sans HK";
                 }
+                @media(max-width:1025px) {
+                    #specialty_p {
+                    width: 17%;
+                    }
+                }
 
 
                 .specialty_tips {
@@ -1558,6 +1632,9 @@ footer {
                     }
                 }
             }
+
+  
+
 
             .coffee_p {
                 display: flex;
@@ -1603,6 +1680,7 @@ footer {
                 .middle {
                     border-left: 2px solid #444;
                     border-right: 2px solid #444;
+
 
                 }
 
@@ -1826,6 +1904,15 @@ footer {
 
                     }
 
+                    @media(max-width:1200px) {
+                        .middle_p {
+                            // font-size: 12px;
+                            text-align: center;
+                            margin: 0 5%;
+                        }
+                    }
+
+
                     #div2_middle_p1_p {}
                 }
 
@@ -1833,5 +1920,7 @@ footer {
             }
 
         }
+
     }
+
 }
