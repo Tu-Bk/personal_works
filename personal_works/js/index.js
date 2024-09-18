@@ -50,7 +50,8 @@ let region = [
     india,
     ethiopia,
     kenya,
-    rwanda];
+    rwanda
+];
 
 let low = document.getElementById('low_Oiliness');
 let medium = document.getElementById('medium_Oiliness');
@@ -61,7 +62,6 @@ let oiliness = [
     medium,
     high
 ];
-
 
 let card1 = document.getElementById('card1');
 let card2 = document.getElementById('card2');
@@ -102,11 +102,17 @@ for (let i = 0; i < filter_Map.length; i++) {
             card[i].style.display = 'none';
         }
 
+        if (filter_Map[i].textContent != oiliness[i].textContent) {
+            console.log(filter_Map[i].textContent)
+        } else {
+            card[i].style.display = 'none';
+        }
+
         // if (filter_Map[i].textContent != region[i].textContent) {
-            // card[i].style.display = 'block';
-            // conso/le.log(filter_Map[i].textContent)
+        // card[i].style.display = 'block';
+        // conso/le.log(filter_Map[i].textContent)
         // } else {
-            // card[i].style.display = 'none';
+        // card[i].style.display = 'none';
 
         // }
         // if (filter_Map[i] === vietnam_Region) {
