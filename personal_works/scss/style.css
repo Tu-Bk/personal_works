@@ -373,7 +373,7 @@ menu ul li a {
   justify-content: space-around;
   flex-wrap: wrap;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card1 {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card1 {
   width: 15%;
   border: 2px solid #444;
   border-radius: 10px;
@@ -383,30 +383,30 @@ menu ul li a {
   margin-right: 10%;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card1 #card1_city {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card1 #card1_city {
   margin-top: 5%;
   margin-left: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card1 #card1_city .city {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card1 #card1_city .city {
   border: 0px solid #444;
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card1 #card1_city .card1_nature {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card1 #card1_city .card1_nature {
   width: 100%;
   display: flex;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card1 #card1_city .card1_nature p {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card1 #card1_city .card1_nature p {
   border: 2px solid #6F4B2A;
   border-radius: 10px;
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card2 {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card2 {
   width: 15%;
   border: 2px solid #444;
   border-radius: 10px;
@@ -416,30 +416,30 @@ menu ul li a {
   margin-right: 10%;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card2 #card1_city {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card2 #card1_city {
   margin-top: 5%;
   margin-left: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card2 #card1_city .city {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card2 #card1_city .city {
   border: 0px solid #444;
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card2 #card1_city .card1_nature {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card2 #card1_city .card1_nature {
   width: 100%;
   display: flex;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card2 #card1_city .card1_nature p {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card2 #card1_city .card1_nature p {
   border: 2px solid #6F4B2A;
   border-radius: 10px;
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card3 {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card3 {
   width: 15%;
   border: 2px solid #444;
   border-radius: 10px;
@@ -449,30 +449,30 @@ menu ul li a {
   margin-right: 10%;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card3 #card1_city {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card3 #card1_city {
   margin-top: 5%;
   margin-left: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card3 #card1_city .city {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card3 #card1_city .city {
   border: 0px solid #444;
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card3 #card1_city .card1_nature {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card3 #card1_city .card1_nature {
   width: 100%;
   display: flex;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card3 #card1_city .card1_nature p {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card3 #card1_city .card1_nature p {
   border: 2px solid #6F4B2A;
   border-radius: 10px;
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card4 {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card4 {
   width: 15%;
   border: 2px solid #444;
   border-radius: 10px;
@@ -481,152 +481,154 @@ menu ul li a {
   display: none;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card4 #card1_city {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card4 #card1_city {
   margin-top: 5%;
   margin-left: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card4 #card1_city .city {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card4 #card1_city .city {
   border: 0px solid #444;
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card4 #card1_city .card1_nature {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card4 #card1_city .card1_nature {
   width: 100%;
   display: flex;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar1 .card4 #card1_city .card1_nature p {
+#filter #filter_box #Filter_results_box #Filter_bar1 #card4 #card1_city .card1_nature p {
   border: 2px solid #6F4B2A;
   border-radius: 10px;
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 {
-  display: flex;
-  margin: 5% 0%;
-  justify-content: space-around;
-}
-#filter #filter_box #Filter_results_box #Filter_bar2 .card1 {
+#filter #filter_box #Filter_results_box #card5 {
   width: 15%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card1 #card1_city {
+#filter #filter_box #Filter_results_box #card5 #card1_city {
   margin-top: 5%;
   margin-left: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card1 #card1_city .city {
+#filter #filter_box #Filter_results_box #card5 #card1_city .city {
   border: 0px solid #444;
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card1 #card1_city .card1_nature {
+#filter #filter_box #Filter_results_box #card5 #card1_city .card1_nature {
   width: 100%;
   display: flex;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card1 #card1_city .card1_nature p {
+#filter #filter_box #Filter_results_box #card5 #card1_city .card1_nature p {
   border: 2px solid #6F4B2A;
   border-radius: 10px;
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card2 {
+#filter #filter_box #Filter_results_box #card6 {
   width: 15%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card2 #card1_city {
+#filter #filter_box #Filter_results_box #card6 #card1_city {
   margin-top: 5%;
   margin-left: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card2 #card1_city .city {
+#filter #filter_box #Filter_results_box #card6 #card1_city .city {
   border: 0px solid #444;
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card2 #card1_city .card1_nature {
+#filter #filter_box #Filter_results_box #card6 #card1_city .card1_nature {
   width: 100%;
   display: flex;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card2 #card1_city .card1_nature p {
+#filter #filter_box #Filter_results_box #card6 #card1_city .card1_nature p {
   border: 2px solid #6F4B2A;
   border-radius: 10px;
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card3 {
+#filter #filter_box #Filter_results_box #card7 {
   width: 15%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
+  margin-right: 10%;
+  margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card3 #card1_city {
+#filter #filter_box #Filter_results_box #card7 #card1_city {
   margin-top: 5%;
   margin-left: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card3 #card1_city .city {
+#filter #filter_box #Filter_results_box #card7 #card1_city .city {
   border: 0px solid #444;
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card3 #card1_city .card1_nature {
+#filter #filter_box #Filter_results_box #card7 #card1_city .card1_nature {
   width: 100%;
   display: flex;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card3 #card1_city .card1_nature p {
+#filter #filter_box #Filter_results_box #card7 #card1_city .card1_nature p {
   border: 2px solid #6F4B2A;
   border-radius: 10px;
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card4 {
+#filter #filter_box #Filter_results_box #card8 {
   width: 15%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
+  margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card4 #card1_city {
+#filter #filter_box #Filter_results_box #card8 #card1_city {
   margin-top: 5%;
   margin-left: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card4 #card1_city .city {
+#filter #filter_box #Filter_results_box #card8 #card1_city .city {
   border: 0px solid #444;
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
   color: #fff;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card4 #card1_city .card1_nature {
+#filter #filter_box #Filter_results_box #card8 #card1_city .card1_nature {
   width: 100%;
   display: flex;
   margin-bottom: 5%;
 }
-#filter #filter_box #Filter_results_box #Filter_bar2 .card4 #card1_city .card1_nature p {
+#filter #filter_box #Filter_results_box #card8 #card1_city .card1_nature p {
   border: 2px solid #6F4B2A;
   border-radius: 10px;
   padding: 0.5% 5%;

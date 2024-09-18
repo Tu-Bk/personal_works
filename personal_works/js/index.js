@@ -42,7 +42,7 @@ let india = document.getElementById('india_Region');
 let ethiopia = document.getElementById('ethiopia_Region');
 let kenya = document.getElementById('kenya_Region');
 let rwanda = document.getElementById('rwanda_Region');
-
+// zone
 let region = [
     brazil,
     indonesia,
@@ -53,15 +53,18 @@ let region = [
     rwanda
 ];
 
-let low = document.getElementById('low_Oiliness');
-let medium = document.getElementById('medium_Oiliness');
-let high = document.getElementById('high_Oiliness');
+let low = document.querySelector('.low_Oiliness');
+let medium = document.querySelector('.medium_Oiliness');
+let high = document.querySelector('.high_Oiliness');
 
+// 特性
 let oiliness = [
     low,
     medium,
     high
 ];
+
+console.log(low)
 
 let card1 = document.getElementById('card1');
 let card2 = document.getElementById('card2');
@@ -77,74 +80,133 @@ let card = [
     card2,
     card3,
     card4,
-    card7,
     card5,
     card6,
-    card8
+    card7,
+    // card8
 
 ]
 
 let Text_display_box = document.getElementById('Text_display_box');
+// let medium_Oiliness_box = document.querySelectorAll('.medium_Oiliness_box');
+let medium_Oiliness_box = document.querySelectorAll('.medium_Oiliness_box');
+let low_Oiliness_box = document.querySelectorAll('.low_Oiliness_box');
+let high_Oiliness_box = document.querySelectorAll('.high_Oiliness_box');
 
 
+
+// console.log(medium_Oiliness_box.length)
+// console.log(medium_Oiliness_box)
 for (let i = 0; i < filter_Map.length; i++) {
+    // console.log(filter_Map[i].textContent);
     filter_Map[i].addEventListener('click', () => {
+
         if (Text_display_box.childElementCount != 3) {
             Text_display_box.appendChild(filter_Map[i]);
+            // console.log(filter_Map[i].textContent)
+            Filter_results_box.style.display = 'flex';
+            // console.log(filter_Map[i].textContent);
+            if (filter_Map[i].textContent.trim() == medium.textContent.trim()) {
+                for (let j = 0; j < medium_Oiliness_box.length; j++) {
+                    medium_Oiliness_box[j].style.display = 'block';
+                    // console.log(medium_Oiliness_box[j])
+                }
+            } else {
+                // console.log(filter_Map[i].textContent);
+                // console.log(medium.textContent);
+            }
+
+            if (filter_Map[i].textContent.trim() == low.textContent.trim()) {
+                for (let j = 0; j < low_Oiliness_box.length; j++) {
+                    low_Oiliness_box[j].style.display = 'block';
+                    // console.log(medium_Oiliness_box[j])
+                }
+            } else {
+                // console.log(filter_Map[i].textContent);
+                // console.log(low_Oiliness_box.textContent);
+            }
+            if (filter_Map[i].textContent.trim() == high.textContent.trim()) {
+                for (let j = 0; j < high_Oiliness_box.length; j++) {
+                    high_Oiliness_box[j].style.display = 'block';
+                    // console.log(medium_Oiliness_box[j])
+                }
+            } else {
+                // console.log(filter_Map[i].textContent);
+                // console.log(high.textContent);
+            }
+            card[i].style.display = 'block';
+            console.log(card[i]);
+            // console.log(low.textContent);
+            // if (filter_Map[i].textContent == medium.textContent
+            // || filter_Map[i].textContent === high.textContent
+            // ) {
+            // console.log(filter_Map[i]);
+            // medium_Oiliness_box.style.display = 'block';
+
+            // } else {
+            // console.log(medium.textContent)
+            // }
+            // console.log(card[i]);
+            // card[i].style.display = 'block';
+
+            // card[i].style.display = 'block';
+
+            // if (filter_Map[i].textContent === region[i].textContent) {
+            //     Filter_results_box.style.display = 'flex';
+            //     card[i].style.display = 'block';
+            //     console.log(filter_Map[i].textContent)
+            // } else {
+            //     card[i].style.display = 'none';
+            // }
+
+            // if (filter_Map[i].textContent != region[i].textContent) {
+            //     // console.log(filter_Map[i].textContent)
+            // } else {
+            //     card[i].style.display = 'none';
+            // }
+
+            // if (filter_Map[i].textContent != region[i].textContent) {
+            // card[i].style.display = 'block';
+            // conso/le.log(filter_Map[i].textContent)
+            // } else {
+            // card[i].style.display = 'none';
+
+            // }
+            // if (filter_Map[i] === vietnam_Region) {
+            //     card2.style.display = 'block';
+            // } else {
+            //     card2.style.display = 'none';
+            // }
+            // if (filter_Map[i] === india_Region) {
+            //     card3.style.display = 'block';
+            // } else {
+            //     card3.style.display = 'none';
+            // }
+            // if (filter_Map[i] === brazil_Region) {
+            //     card4.style.display = 'block';
+            // } else {
+            //     card4.style.display = 'none';
+            // }
+            // if (filter_Map[i] === ethiopia_Region) {
+            //     card5.style.display = 'block';
+            // } else {
+            //     card5.style.display = 'none';
+            // }
+            // if (filter_Map[i] === kenya_Region) {
+            //     card6.style.display = 'block';
+            // } else {
+            //     card6.style.display = 'none';
+            // }
+            // if (filter_Map[i] === rwanda_Region) {
+            //     card8.style.display = 'block';
+            // } else {
+            //     card8.style.display = 'none';
+            // }
         } else {
             console.log('達到上限')
         }
-        if (filter_Map[i].textContent === region[i].textContent) {
-            Filter_results_box.style.display = 'flex';
-            card[i].style.display = 'block';
-            console.log(filter_Map[i].textContent)
-        } else {
-            card[i].style.display = 'none';
-        }
 
-        if (filter_Map[i].textContent != oiliness[i].textContent) {
-            console.log(filter_Map[i].textContent)
-        } else {
-            card[i].style.display = 'none';
-        }
 
-        // if (filter_Map[i].textContent != region[i].textContent) {
-        // card[i].style.display = 'block';
-        // conso/le.log(filter_Map[i].textContent)
-        // } else {
-        // card[i].style.display = 'none';
-
-        // }
-        // if (filter_Map[i] === vietnam_Region) {
-        //     card2.style.display = 'block';
-        // } else {
-        //     card2.style.display = 'none';
-        // }
-        // if (filter_Map[i] === india_Region) {
-        //     card3.style.display = 'block';
-        // } else {
-        //     card3.style.display = 'none';
-        // }
-        // if (filter_Map[i] === brazil_Region) {
-        //     card4.style.display = 'block';
-        // } else {
-        //     card4.style.display = 'none';
-        // }
-        // if (filter_Map[i] === ethiopia_Region) {
-        //     card5.style.display = 'block';
-        // } else {
-        //     card5.style.display = 'none';
-        // }
-        // if (filter_Map[i] === kenya_Region) {
-        //     card6.style.display = 'block';
-        // } else {
-        //     card6.style.display = 'none';
-        // }
-        // if (filter_Map[i] === rwanda_Region) {
-        //     card8.style.display = 'block';
-        // } else {
-        //     card8.style.display = 'none';
-        // }
 
     })
 }

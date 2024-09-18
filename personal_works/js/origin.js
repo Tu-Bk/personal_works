@@ -18,6 +18,16 @@ let picture_belowp_p7 = document.getElementById('picture_belowp_p7');
 let picture_belowp_p8 = document.getElementById('picture_belowp_p8');
 
 
+let card1 = document.getElementById('card1');
+let card2 = document.getElementById('card2');
+let card3 = document.getElementById('card3');
+let card4 = document.getElementById('card4');
+let card5 = document.getElementById('card5');
+let card6 = document.getElementById('card6');
+let card7 = document.getElementById('card7');
+let card8 = document.getElementById('card8');
+
+
 
 let cardbox = [
     picture_below1,
@@ -41,11 +51,24 @@ let cardbox_p = [
     picture_belowp_p8,
 ]
 
+
+let card_box = [
+    card1,
+    card2,
+    card3,
+    card4,
+    card5,
+    card6,
+    card7,
+    card8,
+]
+
 for (let i = 0; i < cardbox.length; i++) {
     cardbox[i].addEventListener('click', () => {
         if (cardbox[i].style.display != 'none') {
             cardbox[i].style.display = 'none';
             cardbox_p[i].style.display = 'flex';
+            card_box[i].style.height='480px'
         }
     });
 };
@@ -56,6 +79,7 @@ for (let i = 0; i < cardbox_p.length; i++) {
         if (cardbox_p[i].style.display != 'none') {
             cardbox[i].style.display = 'flex';
             cardbox_p[i].style.display = 'none';
+            card_box[i].style.height='308px'
         }
     });
 };
