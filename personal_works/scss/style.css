@@ -96,6 +96,7 @@ menu ul li a {
   display: flex;
   align-items: center;
   justify-content: flex-start;
+  width: 100%;
 }
 #search_block #search_block_box #box_seach > p {
   color: #4F2D0D;
@@ -103,11 +104,11 @@ menu ul li a {
   font-family: "Noto Sans HK";
   font-weight: 500;
   display: flex;
-  margin-right: 2%;
+  margin-right: 4%;
   width: 20%;
 }
 #search_block #search_block_box #box_seach #Text_display_box {
-  width: 850px;
+  width: 100%;
   border: 2px solid #444;
   border-radius: 10px;
   padding: 3% 0;
