@@ -55,7 +55,7 @@ a {
     color: var(--deep);
 }
 
-body{
+body {
     height: auto;
 }
 
@@ -559,6 +559,7 @@ menu {
                             width: 100%;
                             // padding: 1% 2%;
                             font-size: 20px;
+                            font-weight: 900;
                             color: #fff;
                         }
 
@@ -575,6 +576,7 @@ menu {
                                 border-radius: 10px;
                                 padding: 0.5% 5%;
                                 font-size: 14px;
+                                font-weight: 900;
                                 color: #fff;
                             }
                         }
@@ -601,6 +603,7 @@ menu {
                             width: 100%;
                             // padding: 1% 2%;
                             font-size: 20px;
+                            font-weight: 900;
                             color: #fff;
                         }
 
@@ -612,12 +615,14 @@ menu {
                             // margin-left: 5%;
 
 
+
                             p {
                                 border: 2px solid #6F4B2A;
                                 border-radius: 10px;
                                 padding: 0.5% 5%;
                                 font-size: 14px;
                                 color: #fff;
+                                font-weight: 900;
                             }
                         }
                     }
@@ -644,6 +649,7 @@ menu {
                             // padding: 1% 2%;
                             font-size: 20px;
                             color: #fff;
+                            font-weight: 900;
                         }
 
                         .card1_nature {
@@ -660,6 +666,7 @@ menu {
                                 padding: 0.5% 5%;
                                 font-size: 14px;
                                 color: #fff;
+                                font-weight: 900;
                             }
                         }
                     }
@@ -685,6 +692,7 @@ menu {
                             // padding: 1% 2%;
                             font-size: 20px;
                             color: #fff;
+                            font-weight: 900;
                         }
 
                         .card1_nature {
@@ -701,6 +709,7 @@ menu {
                                 padding: 0.5% 5%;
                                 font-size: 14px;
                                 color: #fff;
+                                font-weight: 900;
                             }
                         }
                     }
@@ -733,6 +742,7 @@ menu {
                         // padding: 1% 2%;
                         font-size: 20px;
                         color: #fff;
+                        font-weight: 900;
                     }
 
                     .card1_nature {
@@ -749,6 +759,7 @@ menu {
                             padding: 0.5% 5%;
                             font-size: 14px;
                             color: #fff;
+                            font-weight: 900;
                         }
                     }
                 }
@@ -775,6 +786,7 @@ menu {
                         // padding: 1% 2%;
                         font-size: 20px;
                         color: #fff;
+                        font-weight: 900;
                     }
 
                     .card1_nature {
@@ -791,6 +803,7 @@ menu {
                             padding: 0.5% 5%;
                             font-size: 14px;
                             color: #fff;
+                            font-weight: 900;
                         }
                     }
                 }
@@ -817,6 +830,7 @@ menu {
                         // padding: 1% 2%;
                         font-size: 20px;
                         color: #fff;
+                        font-weight: 900;
                     }
 
                     .card1_nature {
@@ -833,6 +847,7 @@ menu {
                             padding: 0.5% 5%;
                             font-size: 14px;
                             color: #fff;
+                            font-weight: 900;
                         }
                     }
                 }
@@ -858,6 +873,7 @@ menu {
                         // padding: 1% 2%;
                         font-size: 20px;
                         color: #fff;
+                        font-weight: 900;
                     }
 
                     .card1_nature {
@@ -874,6 +890,7 @@ menu {
                             padding: 0.5% 5%;
                             font-size: 14px;
                             color: #fff;
+                            font-weight: 900;
                         }
                     }
                 }
@@ -1608,9 +1625,10 @@ footer {
                     font-weight: 800;
                     font-family: "Noto Sans HK";
                 }
+
                 @media(max-width:1025px) {
                     #specialty_p {
-                    width: 17%;
+                        width: 17%;
                     }
                 }
 
@@ -1637,7 +1655,7 @@ footer {
                 }
             }
 
-  
+
 
 
             .coffee_p {

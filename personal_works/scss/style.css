@@ -445,6 +445,7 @@ menu ul li a {
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
+  font-weight: 900;
   color: #fff;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card1 #card1_city .card1_nature {
@@ -457,6 +458,7 @@ menu ul li a {
   border-radius: 10px;
   padding: 0.5% 5%;
   font-size: 14px;
+  font-weight: 900;
   color: #fff;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card2 {
@@ -478,6 +480,7 @@ menu ul li a {
   border-radius: 99px;
   width: 100%;
   font-size: 20px;
+  font-weight: 900;
   color: #fff;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card2 #card1_city .card1_nature {
@@ -491,6 +494,7 @@ menu ul li a {
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card3 {
   width: 15%;
@@ -512,6 +516,7 @@ menu ul li a {
   width: 100%;
   font-size: 20px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card3 #card1_city .card1_nature {
   width: 100%;
@@ -524,6 +529,7 @@ menu ul li a {
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card4 {
   width: 15%;
@@ -544,6 +550,7 @@ menu ul li a {
   width: 100%;
   font-size: 20px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card4 #card1_city .card1_nature {
   width: 100%;
@@ -556,6 +563,7 @@ menu ul li a {
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card5 {
   width: 15%;
@@ -577,6 +585,7 @@ menu ul li a {
   width: 100%;
   font-size: 20px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card5 #card1_city .card1_nature {
   width: 100%;
@@ -589,6 +598,7 @@ menu ul li a {
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card6 {
   width: 15%;
@@ -610,6 +620,7 @@ menu ul li a {
   width: 100%;
   font-size: 20px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card6 #card1_city .card1_nature {
   width: 100%;
@@ -622,6 +633,7 @@ menu ul li a {
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card7 {
   width: 15%;
@@ -643,6 +655,7 @@ menu ul li a {
   width: 100%;
   font-size: 20px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card7 #card1_city .card1_nature {
   width: 100%;
@@ -655,6 +668,7 @@ menu ul li a {
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card8 {
   width: 15%;
@@ -675,6 +689,7 @@ menu ul li a {
   width: 100%;
   font-size: 20px;
   color: #fff;
+  font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card8 #card1_city .card1_nature {
   width: 100%;
@@ -687,6 +702,7 @@ menu ul li a {
   padding: 0.5% 5%;
   font-size: 14px;
   color: #fff;
+  font-weight: 900;
 }
 
 footer {
