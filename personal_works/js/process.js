@@ -37,6 +37,8 @@ for (let i = 0; i < block_text.length; i++) {
         if (block_text1_p[i].style.height !== 'auto') {
             block_text1_p[i].style.height = 'auto';
             block_text1_p[i].style.overflow = 'visible';
+            // block_text1_p[i].style.transition=' height = 2s';
+             // block_text1_p[i].style.transition=' height = 2s';
         }else{
             block_text1_p[i].style.height = '';
             block_text1_p[i].style.overflow = 'hidden';
