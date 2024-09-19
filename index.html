@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>咖啡搜索器</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+</head>
+
+<body>
+    <header>
+        <menu>
+            <div>
+                <a href="./index.html">
+                    <img src="./image/LOGO_png.png" alt="">
+                </a>
+            </div>
+            <div>
+                <ul>
+                    <li>
+                        <a href="./origin_introduction.html">咖啡豆產地</a>
+                    </li>
+                    <li>
+                        <a href="./process_processing.html">處理流程</a>
+                    </li>
+                    <li>
+                        <a href="./recommend.html">咖啡豆推薦</a>
+                    </li>
+                </ul>
+            </div>
+        </menu>
+    </header>
+    <main>
+
+        <div id="search_block">
+            <div id="search_block_box">
+                <div id="box_seach">
+                    <p id="box_seach_p">地區篩選</p>
+                    <div id="Text_display_box"></div>
+                </div>
+                <div id="filter_blocks">
+                    <div id="area_box">
+                        <div id="area">
+                            <img src="./image/coffee_beans_1.svg" alt="" class="coffee_img1">
+                            <p class="filter_blocks_p">地區</p>
+                        </div>
+                        <div id="area_seach">
+                            <div class="Regional_distribution" id="brazil_Region">
+                                <p class="Regional_distribution_p">巴西</p>
+                            </div>
+                            <div class="Regional_distribution" id="indonesia_Region">
+                                <p class="Regional_distribution_p">印尼</p>
+                            </div>
+                            <div class="Regional_distribution" id="vietnam_Region">
+                                <p class="Regional_distribution_p">越南</p>
+                            </div>
+                            <div class="Regional_distribution" id="india_Region">
+                                <p class="Regional_distribution_p">印度</p>
+                            </div>
+                            <div class="Regional_distribution" id="ethiopia_Region">
+                                <p class="Regional_distribution_p">埃塞俄比亞</p>
+                            </div>
+                            <div class="Regional_distribution" id="kenya_Region">
+                                <p class="Regional_distribution_p">肯尼亞</p>
+                            </div>
+                            <div class="Regional_distribution" id="rwanda_Region">
+                                <p class="Regional_distribution_p">盧旺達</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="characteristic_box">
+                        <div id="characteristic">
+                            <img src="./image/coffee_beans_1.svg" alt="" class="coffee_img1">
+                            <p class="filter_blocks_p">特性</p>
+                        </div>
+                        <div id="characteristic_seach">
+                            <div class="oily" id="low_Oiliness">
+                                <p class="oily_p">低油性</p>
+                            </div>
+                            <div class="oily" id="medium_Oiliness">
+                                <p class="oily_p">中等油性</p>
+                            </div>
+                            <div class="oily" id="high_Oiliness">
+                                <p class="oily_p">高油性</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="Baking_method_box">
+                        <div id="Baking_method">
+                            <img src="./image/coffee_beans_1.svg" alt="" class="coffee_img1">
+                            <p class="filter_blocks_p">烘培方式</p>
+                        </div>
+                        <div id="Treatment_method">
+                            <div class="Processing" id="washing_Method">
+                                <p class="Processing_p">水洗法</p>
+                            </div>
+                            <div class="Processing" id="encryption">
+                                <p class="Processing_p">密處理法</p>
+                            </div>
+                            <div class="Processing" id="sun_Exposure">
+                                <p class="Processing_p">日曬法</p>
+                            </div>
+                            <div class="Processing" id="fermentation">
+                                <p class="Processing_p">發酵法</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="Text_carousel_area">
+                <img src="./image/Text_carousel_area_img.svg" alt="" id="Text_carousel_area_img">
+                <p id="Text_carousel_area_p" marquee>
+                    <marquee color="gray" hspace="1000" scrollamount="10">
+                        一杯好的咖啡需要好的咖啡豆來沖泡，才能品味出他的味道，所以在沖泡時能看的出沖泡咖啡的人的性個。
+
+                    </marquee>
+                </p>
+            </div>
+            <div id="mouse_icon">
+                <figure class="mouse_icon_img">
+                    <img src="./image/mouse_icon.svg" alt="">
+                </figure>
+            </div>
+        </div>
+        <div id="filter">
+            <div id="filter_box">
+                <div id="Filter_results">
+                    <p id="Filter_results_p">篩選結果</p>
+                    <div>
+                        <img src="./image/card_background.svg" alt="">
+                    </div>
+                </div>
+                <div id="Filter_results_box">
+                    <div id="Filter_bar1">
+                        <div class="medium_Oiliness_box" id="card1">
+                            <img src="./image/filter_graph.svg" alt="">
+                            <div>
+                                <div id="card1_city">
+                                    <p class="city" id="brazil_Region">巴西</p>
+                                    <div class="card1_nature medium_Oiliness" >
+                                        <p>中等油性</p>
+                                        <!-- 中等油性 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="high_Oiliness_box" id="card2">
+                            <img src="./image/filter_graph.svg" alt="">
+                            <div>
+                                <div id="card1_city">
+                                    <p class="city" id="indonesia_Region">印尼</p>
+                                    <div class="card1_nature high_Oiliness">
+                                        <p>高油性</p>
+                                        <!-- 高油性 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medium_Oiliness_box" id="card3">
+                            <img src="./image/filter_graph.svg" alt="">
+                            <div>
+                                <div id="card1_city">
+                                    <p class="city" id="vietnam_Region">越南</p>
+                                    <div class="card1_nature medium_Oiliness">
+                                        <p>中等油性</p>
+                                        <!-- 中等油性 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="high_Oiliness_box" id="card4">
+                            <img src="./image/filter_graph.svg" alt="">
+                            <div>
+                                <div id="card1_city">
+                                    <p class="city" id="india_Region">印度</p>
+                                    <div class="card1_nature high_Oiliness">
+                                        <p>高油性</p>
+                                        <!-- 高油性 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- </div>
+                    <div id="Filter_bar2"> -->
+                        <div class="low_Oiliness_box" id="card5">
+                            <img src="./image/filter_graph.svg" alt="">
+                            <div>
+                                <div id="card1_city">
+                                    <p class="city" id="ethiopia_Region">埃塞俄比亞</p>
+                                    <div class="card1_nature low_Oiliness">
+                                        <p>低油性</p>
+                                        <!-- 低油性 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medium_Oiliness_box" id="card6">
+                            <img src="./image/filter_graph.svg" alt="">
+                            <div>
+                                <div id="card1_city">
+                                    <p class="city" id="kenya_Region">肯尼亞</p>
+                                    <div class="card1_nature medium_Oiliness">
+                                        <p>中等油性</p>
+                                        <!-- 中等油性 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medium_Oiliness_box" id="card7">
+                            <img src="./image/filter_graph.svg" alt="">
+                            <div>
+                                <div id="card1_city">
+                                    <p class="city" id="rwanda_Region">盧旺達</p>
+                                    <div class="card1_nature medium_Oiliness">
+                                        <p>中等油性</p>
+                                        <!-- 中等油性 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="medium_Oiliness_box" id="card8">
+                            <img src="./image/filter_graph.svg" alt="">
+                            <div>
+                                <div id="card1_city">
+                                    <p class="city">剛果</p>
+                                    <div class="card1_nature medium_Oiliness">
+                                        <p>中等油性</p>
+                                        <!-- 中等油性 -->
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div id="footer_box">
+                <div id="footer_box_text">
+                    <ul>
+                        <li>
+                            <a href="./index.html">首頁</a>
+                        </li>
+                        <li>
+                            <a href="./origin_introduction.html">咖啡豆產地</a>
+                        </li>
+                        <li>
+                            <a href="./process_processing.html">處理流程</a>
+                        </li>
+                        <li>
+                            <a href="./recommend.html">咖啡豆推薦</a>
+                        </li>
+                    </ul>
+                </div>
+                <div><img src="./image/LOGO_png.png" alt=""></div>
+            </div>
+        </footer>
+
+    </main>
+    <!-- <script src="./js/jquery.textslider.js"></script>
+    <script>$(function () {
+            ('.Text_carousel_area_p').textslider({})
+        }
+        )</script> -->
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
