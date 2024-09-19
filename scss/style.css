@@ -1012,8 +1012,8 @@ footer #footer_box #footer_box_text ul li a {
   /* 防止文字换行 */
   overflow: hidden;
   /* 隐藏溢出的文字 */
-  text-overflow: ellipsis;
   /* 使用省略号表示溢出的部分 */
+  height: auto;
 }
 .Second_page_frame #text_block .block1 #method1_1 {
   display: flex;
@@ -1052,8 +1052,8 @@ footer #footer_box #footer_box_text ul li a {
   /* 防止文字换行 */
   overflow: hidden;
   /* 隐藏溢出的文字 */
-  text-overflow: ellipsis;
   /* 使用省略号表示溢出的部分 */
+  height: auto;
 }
 .Second_page_frame #text_block .block2 {
   display: flex;
@@ -1133,8 +1133,8 @@ footer #footer_box #footer_box_text ul li a {
   /* 防止文字换行 */
   overflow: hidden;
   /* 隐藏溢出的文字 */
-  text-overflow: ellipsis;
   /* 使用省略号表示溢出的部分 */
+  height: auto;
 }
 .Second_page_frame #text_block .block3 #method1_2 {
   display: flex;
@@ -1175,8 +1175,8 @@ footer #footer_box #footer_box_text ul li a {
   /* 防止文字换行 */
   overflow: hidden;
   /* 隐藏溢出的文字 */
-  text-overflow: ellipsis;
   /* 使用省略号表示溢出的部分 */
+  height: auto;
 }
 
 .Recommendation_box {

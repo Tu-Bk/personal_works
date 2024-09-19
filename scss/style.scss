@@ -1279,7 +1279,9 @@ footer {
                     .block_text {
                         display: flex;
                         margin-top: 5%;
+               
                         cursor: pointer;
+           
 
                         >p {
                             color: #8E6137;
@@ -1291,9 +1293,10 @@ footer {
                             /* 防止文字换行 */
                             overflow: hidden;
                             /* 隐藏溢出的文字 */
-                            text-overflow: ellipsis;
+                            // text-overflow: ellipsis;
                             /* 使用省略号表示溢出的部分 */
                             // margin-bottom: 100%;
+                            height: auto;
                         }
                     }
                 }
@@ -1340,8 +1343,9 @@ footer {
                             /* 防止文字换行 */
                             overflow: hidden;
                             /* 隐藏溢出的文字 */
-                            text-overflow: ellipsis;
+                            // text-overflow: ellipsis;
                             /* 使用省略号表示溢出的部分 */
+                        height: auto;
                         }
                     }
                 }
@@ -1445,8 +1449,9 @@ footer {
                             /* 防止文字换行 */
                             overflow: hidden;
                             /* 隐藏溢出的文字 */
-                            text-overflow: ellipsis;
+                            // text-overflow: ellipsis;
                             /* 使用省略号表示溢出的部分 */
+                            height: auto;
                         }
                     }
                 }
@@ -1495,8 +1500,9 @@ footer {
                             /* 防止文字换行 */
                             overflow: hidden;
                             /* 隐藏溢出的文字 */
-                            text-overflow: ellipsis;
+                            // text-overflow: ellipsis;
                             /* 使用省略号表示溢出的部分 */
+                            height: auto;
                         }
                     }
                 }
