@@ -1002,7 +1002,6 @@ footer #footer_box #footer_box_text ul li a {
 .Second_page_frame #text_block .block1 .method .washing_method_p .block_text {
   display: flex;
   margin-top: 5%;
-  cursor: pointer;
 }
 .Second_page_frame #text_block .block1 .method .washing_method_p .block_text > p {
   color: #8E6137;
@@ -1123,7 +1122,6 @@ footer #footer_box #footer_box_text ul li a {
 .Second_page_frame #text_block .block3 .method .washing_method_p .block_text {
   display: flex;
   margin-top: 5%;
-  cursor: pointer;
 }
 .Second_page_frame #text_block .block3 .method .washing_method_p .block_text > p {
   color: #8E6137;
