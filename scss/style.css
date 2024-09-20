@@ -420,21 +420,20 @@ menu ul li a {
   display: none;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 {
-  display: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin: 5% 5%;
   margin-bottom: 0%;
-  justify-content: space-around;
-  flex-wrap: wrap;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card1 {
-  width: 15%;
+  width: 80%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
   margin-right: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card1 #card1_city {
   margin-top: 5%;
@@ -462,14 +461,14 @@ menu ul li a {
   color: #fff;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card2 {
-  width: 15%;
+  width: 80%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
   margin-right: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card2 #card1_city {
   margin-top: 5%;
@@ -497,14 +496,14 @@ menu ul li a {
   font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card3 {
-  width: 15%;
+  width: 80%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
   margin-right: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card3 #card1_city {
   margin-top: 5%;
@@ -532,13 +531,14 @@ menu ul li a {
   font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card4 {
-  width: 15%;
+  width: 80%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
+  margin-right: 1%;
 }
 #filter #filter_box #Filter_results_box #Filter_bar1 #card4 #card1_city {
   margin-top: 5%;
@@ -566,14 +566,14 @@ menu ul li a {
   font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card5 {
-  width: 15%;
+  width: 80%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
   margin-right: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 #filter #filter_box #Filter_results_box #card5 #card1_city {
   margin-top: 5%;
@@ -601,14 +601,14 @@ menu ul li a {
   font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card6 {
-  width: 15%;
+  width: 80%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
   margin-right: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 #filter #filter_box #Filter_results_box #card6 #card1_city {
   margin-top: 5%;
@@ -636,14 +636,14 @@ menu ul li a {
   font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card7 {
-  width: 15%;
+  width: 80%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
   margin-right: 10%;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
 }
 #filter #filter_box #Filter_results_box #card7 #card1_city {
   margin-top: 5%;
@@ -671,13 +671,14 @@ menu ul li a {
   font-weight: 900;
 }
 #filter #filter_box #Filter_results_box #card8 {
-  width: 15%;
+  width: 80%;
   border: 2px solid #444;
   border-radius: 10px;
   overflow: hidden;
   background-color: rgba(111, 75, 42, 0.7);
   display: none;
-  margin-bottom: 5%;
+  margin-bottom: 15%;
+  margin-right: 10%;
 }
 #filter #filter_box #Filter_results_box #card8 #card1_city {
   margin-top: 5%;
