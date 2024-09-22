@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="zh-Hant-TW">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>咖啡搜索器</title>
+
+    <!-- 步驟一：載入React, Babel -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style.min.css">
+    <script type="text/babel" src="./jsx/Menu.jsx"></script>
+    <script type="text/babel" src="./jsx/Search_block.jsx"></script>
+    <script type="text/babel" src="./jsx/Filter.jsx"></script>
+    <script type="text/babel" src="./jsx/Filter_box.jsx"></script>
+    <script type="text/babel" src="./jsx/Footer.jsx"></script>
+</head>
+
+<body>
+    <div id="root"> </div>
+
+    <script type="text/babel">
+        function App() {
+
+            return (
+                <>
+                    <Menu />
+                    <Search_block />
+                    <Filter />
+                    <Footer />
+                </>
+            )
+        }
+        ReactDOM
+            .createRoot(document.getElementById('root'))
+            .render(<App />);
+    </script>
+    <!-- <script src="./js/index.js"></script> -->
+</body>
+
+</html>
