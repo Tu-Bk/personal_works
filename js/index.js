@@ -64,7 +64,6 @@ let oiliness = [
     high
 ];
 
-console.log(low)
 
 let card1 = document.getElementById('card1');
 let card2 = document.getElementById('card2');

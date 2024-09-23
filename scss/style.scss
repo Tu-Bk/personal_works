@@ -498,6 +498,7 @@ menu {
 
     #filter_box {
         width: 100%;
+        padding-bottom: 5%;
 
 
         #Filter_results {
@@ -523,13 +524,13 @@ menu {
 
         #Filter_results_box {
             margin: 0 10%;
-            margin-bottom: 5%;
+            // margin-bottom: 5%;
             border: 3px solid #444f;
             border-radius: 10px;
             display: flex;
             flex-direction: column;
             justify-content: flex-start;
-            display: none;
+            // display: none;
 
             #Filter_bar1 {
                 // display: flex;
@@ -546,7 +547,7 @@ menu {
                     border-radius: 10px;
                     overflow: hidden;
                     background-color: rgba(111, 75, 42, 0.7);
-                    display: none;
+                    // display: none;
                     margin-right: 10%;
                     margin-bottom: 15%;
 
@@ -591,7 +592,7 @@ menu {
                     border-radius: 10px;
                     overflow: hidden;
                     background-color: rgba(111, 75, 42, 0.7);
-                    display: none;
+                    // display: none;
                     margin-right: 10%;
                     margin-bottom: 15%;
 
@@ -636,7 +637,7 @@ menu {
                     border-radius: 10px;
                     overflow: hidden;
                     background-color: rgba(111, 75, 42, 0.7);
-                    display: none;
+                    // display: none;
                     margin-right: 10%;
                     margin-bottom: 15%;
 
@@ -680,7 +681,7 @@ menu {
                     border-radius: 10px;
                     overflow: hidden;
                     background-color: rgba(111, 75, 42, 0.7);
-                    display: none;
+                    // display: none;
                     margin-bottom: 15%;
                     margin-right: 1%;
 
@@ -730,7 +731,7 @@ menu {
                 border-radius: 10px;
                 overflow: hidden;
                 background-color: rgba(111, 75, 42, 0.7);
-                display: none;
+                // display: none;
                 margin-right: 10%;
                 margin-bottom: 15%;
 
@@ -774,7 +775,7 @@ menu {
                 border-radius: 10px;
                 overflow: hidden;
                 background-color: rgba(111, 75, 42, 0.7);
-                display: none;
+                // display: none;
                 margin-right: 10%;
                 margin-bottom: 15%;
 
@@ -818,7 +819,7 @@ menu {
                 border-radius: 10px;
                 overflow: hidden;
                 background-color: rgba(111, 75, 42, 0.7);
-                display: none;
+                // display: none;
                 margin-right: 10%;
                 margin-bottom: 15%;
 
@@ -862,7 +863,7 @@ menu {
                 border-radius: 10px;
                 overflow: hidden;
                 background-color: rgba(111, 75, 42, 0.7);
-                display: none;
+                // display: none;
                 margin-bottom: 15%;
                 margin-right: 10%;
 

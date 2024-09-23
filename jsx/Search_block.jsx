@@ -78,10 +78,9 @@ function Search_block() {
             </div>
             <div id="Text_carousel_area">
                 <img src="./image/Text_carousel_area_img.svg" alt="" id="Text_carousel_area_img" />
-                <p id="Text_carousel_area_p" marquee>
-                    <marquee color="gray" hspace="1000" scrollamount="10">
+                <p id="Text_carousel_area_p" >
+                    <marquee color="gray" hspace="1000" scrollamount="10" >
                         一杯好的咖啡需要好的咖啡豆來沖泡，才能品味出他的味道，所以在沖泡時能看的出沖泡咖啡的人的性個。
-
                     </marquee>
                 </p>
             </div>
